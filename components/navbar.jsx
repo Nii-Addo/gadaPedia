@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <header className='fixed top-0 z-10 w-full bg-purple-700 md:bg-white'>
+    <header className='fixed top-0 z-10 w-full bg-purple-700 md:bg-white md:h-100'>
       <div
         className='max-w-7xl mx-auto px-2 sm:px-2
             md:pl-24 md:pr-4'>
@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link href='/'><p
                 className='no-underline text-black text-2xl md:text-4xl md:border-b-2 md:border-white hover:border-b-4 hover:border-black'
                >
-                Gitpedia
+                ga-dangme.org
             </p></Link> 
             </div>
             <div className='invicible md:visible absolute md:relative right-0 py-1 md:py-4 w-1/2 md:mb-0 md:w-1/3 pr-5 md:pr-0 flex-shrink-0'>
@@ -26,18 +26,6 @@ const Navbar = () => {
                 </button>
               </div>
             <div className='hidden md:flex md:justify-center md:space-x-4 md:w-1/3 absolute md:right-0 md:h-full'>
-            <a
-                href='#'
-                className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium'>
-                Conversation
-              </a>
-              
-              <a
-                href='#'
-                className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium'>
-                Contribute
-              </a>
-
               <a
                 href='/'
                 className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium'>
@@ -51,6 +39,31 @@ const Navbar = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className='hidden relative md:flex justify-start md:h-16 pl-8' >
+            <a
+              href='#'
+              className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium mr-4'>
+              Dictionary
+            </a>
+            
+            <a
+              href='#'
+              className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium mr-4'>
+              History
+            </a>
+
+            <a
+              href='#'
+              className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium mr-4'>
+              Conversation
+            </a>
+
+            <a
+              href='#'
+              className='text-black md:border-b-2 md:border-white hover:border-b-4 hover:border-black px-3 py-6 text-md font-medium mr-4'>
+              Contribute
+            </a>
         </div>
       </div>
     </header>
