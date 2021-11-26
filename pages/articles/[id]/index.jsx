@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const article = () => {
   return (
-    <div className='md:min-h-full md:pt-8 pt-4 pb-8 bg-gray-100'>
+    <div className='md:min-h-full md:pt-8 pt-4 pr-2 md:pr-0 pb-8 bg-gray-100'>
       <div className=' md:w-1/2 md:ml-40'>
         <div className='max-h-48 px-2 py-4 md:pt-0 pb-4 bg-white'>
           <h1 className=' max-h-28 text-4xl text-intro font-sans font-semibold leading-tight break-words'>
