@@ -1,5 +1,5 @@
-import Introduction from '../components/Introduction';
-import Articles from '../components/Articles';
+import Introduction from '../components/introduction';
+import Articles from '../components/articles';
 import { data } from '../components/FakeData';
 
 export default function Home() {
